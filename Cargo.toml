@@ -1,7 +1,8 @@
 [package]
 name = "mersenne_twister"
-version = "2.0.0"
-authors = ["David Creswick <dcrewi@gyrae.net>"]
+version = "0.1.0"
+edition = "2021"
+authors = ["David Creswick <dcrewi@gyrae.net>", "Deyao Chen <chendeyao000@gmail.com>"]
 license = "MIT/Apache-2.0"
 description = "Mersenne Twister pseudorandom number generator"
 repository = "https://github.com/dcrewi/rust-mersenne-twister"
