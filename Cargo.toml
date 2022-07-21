@@ -18,11 +18,11 @@ include = [
 ]
 
 [dependencies]
-rand_core = "0.2"
+rand_core = "0.6"
 
 [dev-dependencies]
 # For easy testing
-rand = "0.5"
+rand = "0.8"
 
 [badges]
 travis-ci = { repository = "dcrewi/rust-mersenne-twister" }

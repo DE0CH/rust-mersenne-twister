@@ -798,7 +798,7 @@ fn test_recovery() {
     let seed: u64 = thread_rng().gen();
     let mut orig_mt = MT19937_64::from_seed_u64(seed);
     // skip some samples so the RNG is in an intermediate state
-    let to_skip = thread_rng().gen_range(1, NN);
+    let to_skip = thread_rng().gen_range(1..NN);
     for _ in 0..to_skip {
         orig_mt.next_u64();
     }
